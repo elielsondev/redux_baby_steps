@@ -1,6 +1,15 @@
 # Redux baby steps
 O passo a passo para implementação do Redux em projeto React.js
 
+Usaremos um exemplo simples para entendermos o Redux, porém o Redux é excelente para operações complexas:
+![Redux excalidraw](https://user-images.githubusercontent.com/83602931/168745928-04b21c07-9078-443c-999c-3c20103d82c2.png)
+
+A imagem acima mostra o problema que queremos resolver com ajuda do Redux:
+- A esquerda temos a tela de login do usuário que tem que digitar o `nome` e `email`.
+- Após clicar no botão de login queremos que o `nome` e `email` sejam 'recuperados' e exibidos junto com a mensagem, como mostra a nossa imagem a direita.
+
+***!!! É ai que o nosso Redux entra em cena. !!!***
+
 ### Checklist do react-redux
 
 **Antes de começarmos devemos ter bem definido o que queremos**:
