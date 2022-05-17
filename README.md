@@ -121,21 +121,51 @@ function userReducer(state = INITIAL_STATE, action) {
 
 export default userReducer;
 ```
-
 ![Captura de tela de 2022-05-17 02-41-55](https://user-images.githubusercontent.com/83602931/168737523-c87c2f15-8598-4d90-b805-11420f5af9d9.png)
 
 
+- Agora implementar nosso arquivo index.js, ainda no diretório reducers:
+  - Importar o `combineReducers` do redux, com ele é possível 'consumir' um ou mais reducers:
+  `import { combineReducers } from 'redux';`
+  
+  - Importar os reducers que nós criamos, nesse caso será apenas o `userReducer`, porém se existissem mais deveriamos importa-los também:
+  `import userReducer from './userReducer';`
+  
+  - Criar a constante `rootReducer` que recebe o `combineReducer` com os reducers existentes e exportar:
+  ```
+  const rootReducer = combineReducers({
+    userReducer,
+  });
 
-- [ ] configurar os exports do arquivo index.js
+  export default rootReducer;
+  ```
+  
+![Captura de tela de 2022-05-17 02-56-56](https://user-images.githubusercontent.com/83602931/168739372-1327d14d-0fc2-405c-ae90-a1b204165e99.png)
 
 **Na pasta actions**:
-- [ ] criar os actionTypes, por exemplo: `export const DATA = 'DATA';`
-- [ ] criar os actions creators necessários
+- Criar as actionTypes necessárias: `export const DATA = 'DATA';`
+
+![Captura de tela de 2022-05-17 03-03-28](https://user-images.githubusercontent.com/83602931/168740163-f693a066-8e41-434b-95b0-8e6dce0057af.png)
+
+- Importar as `actionTypes` necessárias: `import { DATA } from './actionsTypes';`
+
+- Criar os actions creators necessários:
+```
+export const actionData = (payload) => (
+  {
+    type: DATA,
+    payload,
+  }
+);
+```
+
+![Captura de tela de 2022-05-17 03-10-47](https://user-images.githubusercontent.com/83602931/168741128-1ea301f0-b495-4a10-beeb-fe02b3ddcc80.png)
+
 
 **Nos componentes**:
-- [ ] criar a função mapStateToProps
-- [ ] criar a função mapDispatchToProps
-- [ ] fazer o connect
+- criar a função mapStateToProps
+- criar a função mapDispatchToProps
+- fazer o connect
 
 **Se a sua aplicação não terá outras páginas, não é necessário configurar as rotas. Caso contrário**:
-- [ ] npm install react-router-dom
+- npm install react-router-dom
