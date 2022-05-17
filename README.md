@@ -163,9 +163,11 @@ export const actionData = (payload) => (
 
 
 **Nos componentes**:
+> Aguarde!!! Em breve concluirei os tópicos abaixo.
+
 - criar a função mapStateToProps
 - criar a função mapDispatchToProps
 - fazer o connect
 
 **Se a sua aplicação não terá outras páginas, não é necessário configurar as rotas. Caso contrário**:
-- npm install react-router-dom
+ `npm install react-router-dom`
