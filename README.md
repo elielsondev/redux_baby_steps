@@ -68,7 +68,7 @@ npm install
 **Criar dentro do diretório 📂 store:*
 - arquivo 📄 `index.js`
 
-#### A partir daqui devemos reforçar um fato importante: Alguns arquivos precisaram ser importados antes mesmo de serem implementados, para uma melhor compreensão do que vem a seguir. "Imagine que o Redux é uma casa em construção, porém existe uma peculiaridade nela, ela será construida de forma reversa, ou seja, primeiro iremos fazer o telhado, depois as paredes, (...) e por fim a base". Seguindo essa linha de racíocinio podemos seguir adiante.
+##### A partir daqui devemos reforçar um fato importante: Alguns arquivos precisaram ser importados antes mesmo de serem implementados, para uma melhor compreensão do que vem a seguir. "Imagine que o Redux é uma casa em construção, porém existe uma peculiaridade nela, ela será construida de forma reversa, ou seja, primeiro iremos fazer o telhado, depois as paredes, (...) e por fim a base". Seguindo essa linha de racíocinio podemos seguir adiante.
 
 **No arquivo App.js:**
 *Essa implementação pode ser feita tanto no componente `<App />`, como no arquivo `src/index.js`, aqui iremos fazer no `index.js`,
