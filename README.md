@@ -1,5 +1,5 @@
 # Redux baby steps
-O passo a passo para implementação do Redux em um projeto React.js
+O passo a passo para implementação do Redux em projeto React.js
 
 ### Checklist do react-redux
 
