@@ -173,9 +173,32 @@ export const actionData = (payload) => (
 
 **Nos componentes**:
 > Aguarde!!! Em breve concluirei os tópicos abaixo.
-- fazer o connect
-- criar a função mapDispatchToProps
-- criar a função mapStateToProps
+- fazer o connect: Devemos importar o connect `import { connect } from 'react-redux'` no componente que iremos usar o `mapStateToProps`, `mapDispatchToProps` ou ambos.
+```
+export default connect(mapStateToPros, mapDispatchToProps)(App)
+```
+ **OBS: Caso não use um dos dois no componente substitua-o no connect por `null`**
+
+- criar a função mapDispatchToProps: Essa função é responsável por disparar as informações (dados) que você quer enviar para o reducer.
+```
+const mapDispatchToProps = (dispatch) => (
+  {
+    infoInput: (state) => dispatch(actionData(state)),    
+  }
+);
+```
+**OBS: Devemos importar a action que queremos persistir a informação.**
+
+- criar a função mapStateToProps: Essa função resgata os dados salvos no reducer como props;
+```
+const mapStateToProps = (state) => (
+  {
+    infoSave: state.userReducer.user,
+  }
+);
+```
+
+![image](https://user-images.githubusercontent.com/83602931/195689268-b29c8498-80ad-4ae4-97ce-bf33e3d64c7e.png)
 
 **Se a sua aplicação não terá outras páginas, não é necessário configurar as rotas. Caso contrário**:
  `npm install react-router-dom`
