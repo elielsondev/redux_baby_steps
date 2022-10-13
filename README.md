@@ -2,7 +2,8 @@
 O passo a passo para implementação do Redux em projeto React.js
 
 Usaremos um exemplo simples para entendermos o Redux, porém o Redux é excelente para operações complexas:
-![Redux excalidraw](https://user-images.githubusercontent.com/83602931/168745928-04b21c07-9078-443c-999c-3c20103d82c2.png)
+![image](https://user-images.githubusercontent.com/83602931/195695806-21d4a05a-9140-4168-a80b-c94b211895da.png)
+
 
 A imagem acima mostra o problema que queremos resolver com ajuda do Redux:
 - A esquerda temos a tela de login do usuário que tem que digitar o `nome` e `email`.
