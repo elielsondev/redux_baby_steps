@@ -1,4 +1,4 @@
-# Redux baby steps
+# Redux in React.js baby steps
 O passo a passo para implementação do Redux em projeto React.js
 
 Usaremos um exemplo simples para entendermos o Redux, porém o Redux é excelente para operações complexas:
