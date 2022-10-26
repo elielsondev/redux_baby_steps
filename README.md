@@ -69,13 +69,13 @@ npm install
 - Diretório/pasta 📂`redux` e dentro dessa pasta:
    -  Crie os diretórios 📂`actions`, 📂`reducers` e 📂`store`.
 
-*Criar dentro do diretório 📂 actions:*
+**Criar dentro do diretório 📂 actions:**
 - arquivo 📄 `index.js`
 
-**Criar dentro do diretório 📂 reducers:*
+**Criar dentro do diretório 📂 reducers:**
 - arquivo 📄 `index.js`
 
-**Criar dentro do diretório 📂 store:*
+**Criar dentro do diretório 📂 store:**
 - arquivo 📄 `index.js`
 
 ##### A partir daqui devemos reforçar um fato importante: Alguns arquivos precisaram ser importados antes mesmo de serem implementados, para uma melhor compreensão do que vem a seguir. "Imagine que o Redux é uma casa em construção, porém existe uma peculiaridade nela, ela será construida de forma reversa, ou seja, primeiro iremos fazer o telhado, depois as paredes, (...) e por fim a base". Seguindo essa linha de racíocinio podemos seguir adiante.
