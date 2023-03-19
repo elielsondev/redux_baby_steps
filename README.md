@@ -7,7 +7,7 @@ Usaremos um exemplo simples para entendermos o Redux, porém o Redux é excelent
 
 A imagem acima mostra o problema que queremos resolver com ajuda do Redux:
 - A esquerda temos a tela de login do usuário que tem que digitar o `nome` e `email`.
-- Após clicar no botão de login queremos que o `nome` e `email` sejam 'recuperados' e exibidos junto com a mensagem, como mostra a nossa imagem a direita.
+- Após clicar no botão de login queremos que o `nome` e `email` sejam 'recuperados' e exibidos junto com a mensagem, como mostra a nossa imagem.
 
 ***!!! É ai que o nosso Redux entra em cena. !!!***
 
