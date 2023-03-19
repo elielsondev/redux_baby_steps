@@ -173,7 +173,6 @@ export const actionData = (payload) => (
 
 
 **Nos componentes**:
-> Aguarde!!! Em breve concluirei os tópicos abaixo.
 - fazer o connect: Devemos importar o connect `import { connect } from 'react-redux'` no componente que iremos usar o `mapStateToProps`, `mapDispatchToProps` ou ambos.
 ```
 export default connect(mapStateToPros, mapDispatchToProps)(App)
@@ -201,5 +200,9 @@ const mapStateToProps = (state) => (
 
 ![image](https://user-images.githubusercontent.com/83602931/195689268-b29c8498-80ad-4ae4-97ce-bf33e3d64c7e.png)
 
+**Lembre-se de impplementar também os Prop-types, não os abordei aqui para que não ficasse mais extenso.** 
+
 **Se a sua aplicação não terá outras páginas, não é necessário configurar as rotas. Caso contrário**:
  `npm install react-router-dom`
+
+Espero ter ajudado e provado que o Redux é um mostrinho do bem rsrsrs.
