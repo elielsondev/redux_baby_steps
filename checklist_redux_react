@@ -9,6 +9,12 @@
 - [ ] npm install --save redux react-redux;
 - [ ] npm install.
 
+*DevTools do Redux:*
+- [ ] npm install --save redux-devtools-extension
+
+** ATENÇÃO!!! - Caso o projeto tenha chamada de API faça a instalação do Redux Thunk com o comando abaixo. **
+- [ ] npm install redux-thunk 
+
 *Criar dentro do diretório src:*
 - [ ] diretório actions;
 - [ ] diretório reducers;
